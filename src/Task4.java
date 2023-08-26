@@ -1,9 +1,8 @@
-import java.util.Scanner;
-
 //Задача 4 посложнее:
 //        Напишите метод, который будет вычислять угол между часовой и минутной стрелками
 //        часов. На вход функции подаётся время в виде двух переменных: "hours" и "minutes".
 //        Расчет угла производить относительно реального поведения стрелок часов.
+import java.util.Scanner;
 public class Task4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

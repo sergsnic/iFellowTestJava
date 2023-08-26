@@ -14,7 +14,7 @@ public class BaseConverter {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите температуру в градусах Цельсия: ");
         Double temperature = Double.parseDouble(scanner.nextLine());
-        System.out.print("Для перевода температуры в шкалы Келвин, Фаренгет, Реомюра введите цифру 1 , 2 или 3 соответственно: ");
+        System.out.print("Для перевода температуры в шкалы Келвин, Фаренгейт, Реомюра введите цифру 1 , 2 или 3 соответственно: ");
         int index = Integer.parseInt(scanner.nextLine());
         if (index == 1) System.out.println(convert(ScaleTemperature
                 .KELVIN, temperature) + ScaleTemperature.KELVIN.getDegreeScale());
